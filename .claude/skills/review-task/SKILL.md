@@ -1,18 +1,18 @@
 ---
 name: review-task
-description: docs/tasks のノートを、明確さ・範囲・根拠・クローズ可否の観点でレビューする
+description: Review a docs/tasks note for clarity, scope, evidence, and closure readiness
 ---
 
-# タスクレビュー
+# Review Task
 
-`docs/tasks/` の項目が、明確・範囲限定・テスト可能で、実行またはクローズの準備ができているかをレビューする。
+Review whether a `docs/tasks/` item is clear, bounded, testable, and ready to execute or close.
 
-## チェックリスト
+## Checklist
 
-- Goal が具体的で、プロジェクトのドキュメントやコードパスに結びついている。
-- Scope に非対象が書かれている。
-- 必要に応じて specs / ADR / runbook / ソースファイルへのリンクがある。
-- acceptance criteria が観測可能。
-- 完了した作業に根拠がある: テスト、コマンド、レビュー済み diff。
-- 永続する挙動変更は `docs/specs/`、`docs/runbooks/`、`docs/adr/` に昇格済み。
-- 秘密情報・プライベートなパス・認証情報・ログ・運用データを含まない。
+- Goal is concrete and tied to project docs or code paths.
+- Scope states what is out of scope.
+- Links to specs, ADRs, runbooks, or source files are present when needed.
+- Acceptance criteria are observable.
+- Completed work has evidence: tests, commands, or reviewed diffs.
+- Any durable behavior change was promoted to `docs/specs/`, `docs/runbooks/`, or `docs/adr/`.
+- No secrets, private paths, credentials, logs, or operational data are included.

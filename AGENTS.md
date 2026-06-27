@@ -53,3 +53,10 @@ make fmt      # フォーマット
 - Claude Code で繰り返し使う作業手順は `.claude/skills/` に置く。
 - Codex repo skills を本格運用する場合は `.agents/skills/` を任意追加する。標準生成物には含めない。
 - task note を仕様の正本にしない。確定した仕様は `docs/specs/`、判断理由は `docs/adr/`、運用手順は `docs/runbooks/` に昇格する。
+
+## Harness（AI 制御一式）
+
+- AI 制御の全体像は `.claude/README.md`（Kurosawa Thin Harness Architecture の実装）。
+- アーキ本体は `docs/specs/kurosawa-thin-harness-architecture.md`、repo 固有の脅威モデルは `docs/specs/{capability-boundary,change-boundary,runtime-protocol,evidence-policy,judgment-memory}.md`。
+- skills は classify-task → create-task → scan-decisions → plan-skeleton → execute-task → verify-completion → review-task のライフサイクル（16本、詳細は `.claude/README.md`）。
+- permissions の ask/deny と保護パスは脅威モデルで決める。他プロジェクトの設定をそのまま移植しない。

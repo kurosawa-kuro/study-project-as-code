@@ -1,23 +1,23 @@
 ---
 name: execute-task
-description: 挙動・テスト・ドキュメントを保ったまま docs/tasks のタスクを実行する
+description: Execute a docs/tasks item while preserving behavior, tests, and docs
 ---
 
-# タスク実行
+# Execute Task
 
-`docs/tasks/` のファイルに記載された作業を実装する。
+Implement the work described in a `docs/tasks/` file.
 
-## 手順
+## Steps
 
-1. 編集前にタスクファイルとリンク先ドキュメントを読む。
-2. 中規模以上、または構造的な作業では、ロジックを書く前に `skeleton-first` スキルを回して責務配置と変更範囲を固定する。
-3. テスト・静的解析・対象を絞った確認で現状の挙動を把握する。
-4. 挙動の変更は `docs/specs/` と `docs/03_domain_model.md` に整合させる。
-5. 小さなステップで実装し、挙動・API・DB・CLI・UI・運用の変更に応じてテスト/ドキュメントを更新する。
-6. `Makefile` の関連チェックを実行する。
-7. acceptance criteria を満たしてから、タスクを done に移動 / マークする。
+1. Read the task file and linked docs before editing.
+2. Confirm current behavior with tests, static checks, or targeted inspection.
+3. Keep behavior changes aligned with `docs/specs/` and `docs/03_domain_model.md`.
+4. Implement in small steps and update tests/docs for behavior, API, DB, CLI, UI, or operations changes.
+5. Run relevant checks from `Makefile`.
+6. Move or mark the task as done only after acceptance criteria are met.
 
-## 安全
+## Safety
 
-- 秘密情報・プライベートなパス・トークン・生成レポート・生の運用データを露出させない。
-- ユーザーが明示的に求めない限り、破壊的なコマンドを実行しない。
+- Stay within the task's Scope. If you find out-of-scope changes, broken assumptions, or new risk, do not silently implement them — classify via `control-change` or split into a follow-up task.
+- Do not expose secrets, private paths, tokens, generated reports, or raw operational data.
+- Do not run destructive commands unless the user explicitly asks.
