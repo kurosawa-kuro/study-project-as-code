@@ -54,5 +54,8 @@ make test     # テスト
 
 - [`docs/01_requirements.md`](docs/01_requirements.md) — 目的・範囲・ユーザー・ユースケース
 - [`docs/02_architecture.md`](docs/02_architecture.md) — 6層構造・AIと人間の責任分界・破綻条件
+- [`docs/specs/pm-leader-skill-model.md`](docs/specs/pm-leader-skill-model.md) — 上半分PM / 下半分PMモデル
+- [`docs/specs/project-as-code-for-pm-leader.md`](docs/specs/project-as-code-for-pm-leader.md) — PM / リーダー業務への PaC 適用
+- [`docs/external-links.md`](docs/external-links.md) — 関連リポジトリとの役割分担
 - [`docs/04_workflows.md`](docs/04_workflows.md) — 運用フロー・コマンド
 - [`docs/07_test_strategy.md`](docs/07_test_strategy.md) — テスト方針

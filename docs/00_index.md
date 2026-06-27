@@ -52,3 +52,13 @@ AI エージェント制御の全体像は `.claude/README.md`。アーキ本体
 | [templates/](./templates/) | 各 Layer のテンプレ |
 | [decisions/decision-log.md](./decisions/decision-log.md) | 判断日誌（trade journal） |
 | [memory/](./memory/) | 蒸留済み判断記憶 |
+
+## PM / Leader
+
+PM / リーダー業務を Project as Code に接続するための文書。
+
+| ドキュメント | 役割 |
+|---|---|
+| [specs/pm-leader-skill-model.md](./specs/pm-leader-skill-model.md) | 上半分PM / 下半分PMモデルを PaC の用語へ正規化したもの |
+| [specs/project-as-code-for-pm-leader.md](./specs/project-as-code-for-pm-leader.md) | PM / リーダー業務への PaC 適用ガイド |
+| [external-links.md](./external-links.md) | `pm-leader-skill` など外部リポジトリとの役割分担 |
