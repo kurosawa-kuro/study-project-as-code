@@ -14,7 +14,7 @@
 ## 構成
 
 ```text
-projects/leader-skill/
+src/leader-skill/
 ├── CLAUDE.md        # この配下で作業する際の補助ガイド
 ├── doc/
 │   ├── 01_仕様と設計.md

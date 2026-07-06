@@ -11,7 +11,7 @@
 **目的:** プロジェクト情報（前提・要件・判断・成果物・タスク）を Markdown / YAML / Issue で構造化し、AIと人間が共に参照・更新できる状態を維持する。  
 **フェーズ:** テンプレート整備中（ドキュメント骨格の確立段階）
 
-**子プロジェクト:** `projects/leader-skill/` — リーダースキル資格戦略と学習教材（CAPM 最優先）。旧 `study-leader-skill` リポジトリを吸収したもの（`docs/adr/ADR-001-absorb-study-leader-skill.md`）。子配下の作業は `projects/leader-skill/CLAUDE.md` を併読する。
+**子プロジェクト:** `src/` 配下（`leader-skill` / `pmbok` / `project-as-code`）。`src/leader-skill/` はリーダースキル資格戦略と学習教材（CAPM 最優先）で、旧 `study-leader-skill` リポジトリを吸収したもの（`docs/adr/ADR-001-absorb-study-leader-skill.md`）。子配下の作業は各子の `CLAUDE.md` を併読する。
 
 ---
 
@@ -96,7 +96,7 @@ human_decision_required:
 | `docs/decisions/` | ADR（意思決定記録） |
 | `docs/tasks/active/` | 現在進行中のタスク |
 | `docs/tasks/backlog/` | 積み残しタスク |
-| `projects/leader-skill/` | 子プロジェクト: 資格戦略・学習教材（正本は `projects/leader-skill/doc/`） |
+| `src/leader-skill/` | 子プロジェクト: 資格戦略・学習教材（正本は `src/leader-skill/doc/`） |
 
 ---
 

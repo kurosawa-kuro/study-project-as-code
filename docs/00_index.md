@@ -62,5 +62,5 @@ PM / リーダー業務を Project as Code に接続するための文書。
 | [specs/pm-leader-skill-model.md](./specs/pm-leader-skill-model.md) | 上半分PM / 下半分PMモデルを PaC の用語へ正規化したもの |
 | [specs/project-as-code-for-pm-leader.md](./specs/project-as-code-for-pm-leader.md) | PM / リーダー業務への PaC 適用ガイド |
 | [external-links.md](./external-links.md) | `pm-leader-skill` など外部リポジトリとの役割分担 |
-| [../projects/leader-skill/README.md](../projects/leader-skill/README.md) | 子プロジェクト: リーダースキル資格戦略と学習教材（旧 `study-leader-skill` を吸収、ADR-001） |
-| [adr/ADR-001-absorb-study-leader-skill.md](./adr/ADR-001-absorb-study-leader-skill.md) | `study-leader-skill` を `projects/leader-skill/` へ吸収した決定 |
+| [../src/leader-skill/README.md](../src/leader-skill/README.md) | 子プロジェクト: リーダースキル資格戦略と学習教材（旧 `study-leader-skill` を吸収、ADR-001） |
+| [adr/ADR-001-absorb-study-leader-skill.md](./adr/ADR-001-absorb-study-leader-skill.md) | `study-leader-skill` を `src/leader-skill/` へ吸収した決定 |

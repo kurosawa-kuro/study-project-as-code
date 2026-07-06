@@ -1,6 +1,6 @@
-# CLAUDE.md — projects/leader-skill
+# CLAUDE.md — src/leader-skill
 
-`projects/leader-skill/` は Project as Code（親リポジトリ）が管理する子プロジェクト。リーダースキル資格戦略のドキュメントと学習教材を扱う。
+`src/leader-skill/` は Project as Code（親リポジトリ）が管理する子プロジェクト。リーダースキル資格戦略のドキュメントと学習教材を扱う。
 
 ## 親リポジトリとの関係
 
