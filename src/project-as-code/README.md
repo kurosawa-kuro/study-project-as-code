@@ -26,8 +26,10 @@ src/project-as-code/
 
 ## ステータス
 
-立ち上げ直後。以下が未確定（TODO）。
+立ち上げ直後。方向性は ADR-004（テーラリングを AI に委譲する運用モデル）で定まり、最初の中核成果物はテーラリング資産（framework-stack / tailoring-policy / anti-cannibalism-rules / profiles）が有力候補。実装判断は `docs/tasks/backlog/implement-framework-tailoring-skeleton.md`。
 
-- [ ] この子プロジェクトのゴール確定（テンプレ集 / スターターキット / 記事素材のどれを主とするか）
+以下が未確定（TODO）。
+
+- [ ] テーラリング骨格の実装判断（上記 backlog task）
 - [ ] 親 `docs/templates/` との重複をどちらへ寄せるか決める
 - [ ] 最初に切り出す層（Decision as Code = ADR 一式が有力候補）を決める

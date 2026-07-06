@@ -68,3 +68,4 @@ PM / リーダー業務を Project as Code に接続するための文書。owne
 | [adr/ADR-001-absorb-study-leader-skill.md](./adr/ADR-001-absorb-study-leader-skill.md) | `study-leader-skill` を `src/leader-skill/` へ吸収した決定 |
 | [adr/ADR-002-monorepo-growth-policy.md](./adr/ADR-002-monorepo-growth-policy.md) | リポジトリを分散させず親配下で育てる方針 |
 | [adr/ADR-003-defacto-framework-policy.md](./adr/ADR-003-defacto-framework-policy.md) | オリジナリティを出さずデファクトのフレームワークを忠実に組み合わせる方針（黒澤流） |
+| [adr/ADR-004-ai-assisted-framework-tailoring.md](./adr/ADR-004-ai-assisted-framework-tailoring.md) | テーラリング（組み合わせ・重み・削減）を生成AIに委譲し人間は判断基準を握る運用モデル |
