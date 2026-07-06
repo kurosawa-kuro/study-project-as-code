@@ -35,4 +35,10 @@ task note は1タスクに閉じるので「最近このエージェントは曖
 
 ---
 
-_まだ判断は記録されていません。`log-decision` が末尾に追記します。_
+## 2026-07-06T15:23:03Z — フェーズを「土台作成中」から「実戦投入前」へ判定し、追加の土台磨きを止めた
+- type: approach-choice
+- 根拠 (why): owner の「まだ土台作成中なのか?」という問いに対し、As-Is 棚卸し（ADR-002/003/004、優先順位15項目、framework-stack 一式、skills 16個）で土台の欠落がほぼないこと、一方で PaC が実プロジェクトを1つも回しておらず全作業がメタ作業だったことを確認。tailoring-policy 自身の破綻条件（全部盛り・台帳化）を回避するには、次は「作る」ではなく「1つ使う」が正しいと判断。owner が記録を承認。
+- 影響範囲 (blast radius): ドキュメント上のフェーズ定義のみ（02_architecture に成長フェーズ4段階を新設、project_context のフェーズ更新）。コード・運用資産は不変更で可逆。
+- 撤退条件 (stop/revert): 実戦投入で土台の重大な欠落（例: 型が実負荷に耐えない）が判明したら、フェーズを1へ戻し欠落だけを補う（全面作り直しはしない）。
+- 結果 (outcome): open — 最初の実戦プロジェクトの選定待ち（有力候補 CAPM、`docs/tasks/backlog/capm-as-first-live-project.md`）
+- link: `docs/02_architecture.md#成長フェーズ` / ADR-002〜004
