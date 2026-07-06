@@ -1,3 +1,12 @@
+# フレームワーク優先順位 — 生ブレスト（archive）
+
+> **退避元:** `docs/tasks/idea/aaaaaa`（2026-07-06 作成の生メモ、2026-07-07 退避）
+> **蒸留先:** §1 の必須コア15表 → `docs/01_requirements.md#参照フレームワーク`（方針は `docs/adr/ADR-003-defacto-framework-policy.md`）
+> **未蒸留:** §3 役割別必須セット（A〜D）・§5 学習順4層 → `docs/tasks/backlog/distill-framework-learning-order.md` で判断待ち
+> **権威:** archive は権威順位の最下位。ここを正本として参照しない。
+
+---
+
 ## 1. 結論
 
 ML / MLOps / クラウドネイティブ / バックエンド領域で、**リーダー・PM・コンサルとして必須級**に絞るなら、以下です。
