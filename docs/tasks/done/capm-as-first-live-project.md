@@ -1,6 +1,8 @@
-# CAPM 挑戦を PaC 最初の実戦プロジェクトにする（owner 判断待ちの推薦）
+# CAPM 挑戦を PaC 最初の実戦プロジェクトにする（承認済み・完了）
 
-Task Contract Lite（`docs/templates/task-contract-lite.md`）。フェーズ2（実戦1つ）の候補選定。**選定自体がまだ owner 未承認**であり、承認されたらこの task を active 化して着手する。
+> **結果（2026-07-07）:** owner 承認。実行 task を `docs/tasks/active/2026-07-07-capm-pac-live-run.md` として作成（WBS 7 WP / RAID / KPI 込み）。tailoring-policy に「学習プロジェクト」行を追記。本 note は選定判断の記録として done へ。
+
+Task Contract Lite（`docs/templates/task-contract-lite.md`）。フェーズ2（実戦1つ）の候補選定（以下、選定時の推薦内容）。
 
 ## Goal
 

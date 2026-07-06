@@ -14,6 +14,9 @@
 | クラウドネイティブ基盤 | SRE、SLI/SLO、GitOps、ADR、C4、RAID | マーケ系フレーム |
 | コンサル提案 | MECE、Issue Tree、SCQA、Pyramid、As-Is/To-Be | 実装詳細フレーム |
 | 技術リード | ADR、C4、DDD、Clean Architecture、SRE、CI/CD | コンサル資料系の過剰運用 |
+| 学習プロジェクト（単独） | WBS、KPI、Issue as Code、RAID（軽量） | PMBOK全量、RACI（一人なので不要）、C4/DDD 等技術設計系、SRE |
+
+（「学習プロジェクト」行は 2026-07-07 の CAPM 実戦投入で追加した最初の実績。`docs/tasks/active/2026-07-07-capm-pac-live-run.md`）
 
 ## 適用手順
 

@@ -1,4 +1,9 @@
-# 役割別必須セットと学習順4層の蒸留判断
+# 役割別必須セットと学習順4層の蒸留判断（完了）
+
+> **結果（2026-07-07）:** CAPM 実戦投入（`docs/tasks/active/2026-07-07-capm-pac-live-run.md`）の承認と合わせて判断。
+> - **学習順4層（§5）= 正本化しない。** 第1層（PM上流）〜第2層（コンサル）は CAPM 学習の実行順が実質カバーするため、独立した学習順文書を作ると drift 源になる。archive 素材のまま保持。
+> - **役割別必須セット（§3 A〜D）= archive 保持。** フェーズ3（資産再利用）で `profiles/` を作るときの一次素材とする。今正本化するとフェーズ先取り（02_architecture の成長フェーズ運用ルールに反する）。
+> - archive 冒頭の未蒸留注記を更新済み。判断は decision-log 参照。
 
 Task Contract Lite（`docs/templates/task-contract-lite.md`）。
 

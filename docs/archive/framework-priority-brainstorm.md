@@ -2,7 +2,7 @@
 
 > **退避元:** `docs/tasks/idea/aaaaaa`（2026-07-06 作成の生メモ、2026-07-07 退避）
 > **蒸留先:** §1 の必須コア15表 → `docs/01_requirements.md#参照フレームワーク`（方針は `docs/adr/ADR-003-defacto-framework-policy.md`）
-> **未蒸留:** §3 役割別必須セット（A〜D）・§5 学習順4層 → `docs/tasks/backlog/distill-framework-learning-order.md` で判断待ち
+> **判断済み（2026-07-07）:** §3 役割別必須セット（A〜D）・§5 学習順4層は**正本化せず素材として保持**。学習順第1〜2層は CAPM 実戦 task（`docs/tasks/active/2026-07-07-capm-pac-live-run.md`）の実行順が実質カバー、役割別セットはフェーズ3の `profiles/` 素材。経緯は `docs/tasks/done/distill-framework-learning-order.md`
 > **権威:** archive は権威順位の最下位。ここを正本として参照しない。
 
 ---

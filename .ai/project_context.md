@@ -9,7 +9,7 @@
 
 **名称:** project-as-code  
 **目的:** プロジェクト情報（前提・要件・判断・成果物・タスク）を Markdown / YAML / Issue で構造化し、AIと人間が共に参照・更新できる状態を維持する。  
-**フェーズ:** 実戦投入前（2026-07-07 判定: 土台作成は完了。位置づけ=ADR-002、価値判断基準=ADR-003/004+優先順位15項目、運用資産=framework-stack 一式が揃った。次にやるのは「もっと作る」ではなく「実プロジェクトを1つ PaC で回す」こと。成長フェーズの正本は `docs/02_architecture.md#成長フェーズ`）
+**フェーズ:** フェーズ2「実戦1つ」進行中（2026-07-07〜。土台=フェーズ1は完了。最初の実戦 = CAPM 挑戦を PaC の型で運用: `docs/tasks/active/2026-07-07-capm-pac-live-run.md`。成長フェーズの正本は `docs/02_architecture.md#成長フェーズ`）
 
 **リポジトリの位置づけ:** owner（新米リーダー・PM・コンサル見習い）の成長関連プロジェクトを分散させず、本リポジトリを親として統合管理する（`docs/adr/ADR-002-monorepo-growth-policy.md`）。
 
@@ -29,8 +29,8 @@
 |------|------|
 | アクティブタスク | `docs/tasks/active/` を確認すること |
 | 直近の決定 | `docs/decisions/` を確認すること |
-| ブロッカー | なし。ただしメタ作業（PaC を作るための PaC）の継続は破綻条件（全部盛り・台帳化）に向かうため、追加の土台磨きより実戦投入を優先する |
-| 次の一手（owner 判断待ち） | 最初の実戦プロジェクトの選定。有力候補は CAPM 挑戦（`docs/tasks/backlog/capm-as-first-live-project.md`） |
+| ブロッカー | CAPM の 23 contact hours 講座が未選定（W0、講座購入は owner 判断） |
+| 次の一手 | `docs/tasks/active/2026-07-07-capm-pac-live-run.md` の W0（講座候補比較）→ W1（教材00-01） |
 
 ---
 
