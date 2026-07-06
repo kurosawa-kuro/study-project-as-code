@@ -29,8 +29,8 @@
 |------|------|
 | アクティブタスク | `docs/tasks/active/` を確認すること |
 | 直近の決定 | `docs/decisions/` を確認すること |
-| ブロッカー | CAPM の 23 contact hours 講座が未選定（W0、講座購入は owner 判断） |
-| 次の一手 | `docs/tasks/active/2026-07-07-capm-pac-live-run.md` の W0（講座候補比較）→ W1（教材00-01） |
+| ブロッカー | CAPM 講座の購入判断待ち（W0 比較調査は完了、推薦 = Udemy AR セール時。owner の money 判断） |
+| 次の一手 | 講座購入判断（owner）と並行して W1（教材00-01）は着手可能 |
 
 ---
 
