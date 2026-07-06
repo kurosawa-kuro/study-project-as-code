@@ -30,6 +30,7 @@ make lint     # 静的解析
 - AIへ渡す文脈は `.ai/project_context.md` に集約する。作業前に必ず読む。
 - 意思決定の記録は `docs/decisions/ADR-NNN-title.md`（ADR形式）に残す。
 - ソースは `src/` 配下に置く。
+- PaC が親として管理する子プロジェクトは `projects/` 配下に置く（例: `projects/leader-skill/`）。子配下の作業ルールは各子の `CLAUDE.md` を併読する。
 - 非機密の設定は `env/config.yaml`、ローカル秘密情報は `env/secret.yaml`、チーム共有・本番クレデンシャルは Doppler (`doppler.yaml`) で管理する。
 - 設計・運用ドキュメントは `docs/` 配下。権威順位と更新規約は `docs/00_index.md` に従う。
 - パス別ルールは `.claude/rules/` 配下に置く。

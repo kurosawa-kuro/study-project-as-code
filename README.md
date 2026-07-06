@@ -41,6 +41,8 @@ make test     # テスト
 │   ├── decisions/        # ADR（意思決定記録）
 │   └── tasks/            # 日次作業計画・実装タスク
 ├── issues/               # Epic / Task / Bug（Issue as Code）
+├── projects/             # PaC が親として管理する子プロジェクト
+│   └── leader-skill/     # リーダースキル資格戦略（旧 study-leader-skill を吸収）
 ├── src/                  # アプリケーションコード
 ├── env/
 │   ├── config.yaml       # 非機密設定
@@ -57,5 +59,6 @@ make test     # テスト
 - [`docs/specs/pm-leader-skill-model.md`](docs/specs/pm-leader-skill-model.md) — 上半分PM / 下半分PMモデル
 - [`docs/specs/project-as-code-for-pm-leader.md`](docs/specs/project-as-code-for-pm-leader.md) — PM / リーダー業務への PaC 適用
 - [`docs/external-links.md`](docs/external-links.md) — 関連リポジトリとの役割分担
+- [`projects/leader-skill/README.md`](projects/leader-skill/README.md) — 子プロジェクト: リーダースキル資格戦略と学習教材
 - [`docs/04_workflows.md`](docs/04_workflows.md) — 運用フロー・コマンド
 - [`docs/07_test_strategy.md`](docs/07_test_strategy.md) — テスト方針

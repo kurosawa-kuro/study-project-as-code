@@ -2,6 +2,10 @@
 
 関連リポジトリとの役割分担。
 
+## study-leader-skill（吸収済み）
+
+旧 `study-leader-skill` リポジトリは 2026-07-06 に本リポジトリの `projects/leader-skill/` へ履歴ごと吸収した（[ADR-001](adr/ADR-001-absorb-study-leader-skill.md)）。以後の正本は `projects/leader-skill/` であり、旧リポジトリは更新しない。
+
 ## pm-leader-skill
 
 | 項目 | 内容 |
