@@ -7,6 +7,16 @@
 - 意思決定の属人化（判断理由が残らず同じ議論を繰り返す）
 - 上流のボトルネック（開発速度が上がるほど「何を作るか」の決定が詰まる）
 
+## このリポジトリの位置づけ
+
+新米リーダー・PM・コンサル見習いとしての成長に関連するプロジェクトを、リポジトリを分散させずここで統合管理する。project-as-code を親とし、以下を `src/` 配下の子プロジェクトとして育てる（[ADR-002](docs/adr/ADR-002-monorepo-growth-policy.md)）。
+
+| 子プロジェクト | 役割 |
+|---|---|
+| [`src/leader-skill/`](src/leader-skill/README.md) | リーダースキル資格戦略と学習教材（CAPM / PSPO I） |
+| [`src/pmbok/`](src/pmbok/README.md) | PMBOK を軸とした PM 知識体系の正本整理 |
+| [`src/project-as-code/`](src/project-as-code/README.md) | PaC フレームワーク自体を持ち出し可能な成果物として育てる |
+
 ## 構成（6層モデル）
 
 | 層 | 名称 | 内容 |

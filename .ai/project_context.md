@@ -11,7 +11,15 @@
 **目的:** プロジェクト情報（前提・要件・判断・成果物・タスク）を Markdown / YAML / Issue で構造化し、AIと人間が共に参照・更新できる状態を維持する。  
 **フェーズ:** テンプレート整備中（ドキュメント骨格の確立段階）
 
-**子プロジェクト:** `src/` 配下（`leader-skill` / `pmbok` / `project-as-code`）。`src/leader-skill/` はリーダースキル資格戦略と学習教材（CAPM 最優先）で、旧 `study-leader-skill` リポジトリを吸収したもの（`docs/adr/ADR-001-absorb-study-leader-skill.md`）。子配下の作業は各子の `CLAUDE.md` を併読する。
+**リポジトリの位置づけ:** owner（新米リーダー・PM・コンサル見習い）の成長関連プロジェクトを分散させず、本リポジトリを親として統合管理する（`docs/adr/ADR-002-monorepo-growth-policy.md`）。
+
+**子プロジェクト:** `src/` 配下で育てる。子配下の作業は各子の `CLAUDE.md`（あれば）を併読する。
+
+| 子 | 役割 |
+|---|---|
+| `src/leader-skill/` | 資格戦略・学習教材（CAPM 最優先）。旧 `study-leader-skill` を吸収（ADR-001） |
+| `src/pmbok/` | PMBOK を軸とした PM 知識体系の正本整理 |
+| `src/project-as-code/` | PaC 自体を持ち出し可能な成果物として育てる |
 
 ---
 

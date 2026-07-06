@@ -55,7 +55,7 @@ AI エージェント制御の全体像は `.claude/README.md`。アーキ本体
 
 ## PM / Leader
 
-PM / リーダー業務を Project as Code に接続するための文書。
+PM / リーダー業務を Project as Code に接続するための文書。owner の成長関連プロジェクトはリポジトリを分散させず、本リポジトリを親として `src/` 配下の子プロジェクトで育てる（ADR-002）。
 
 | ドキュメント | 役割 |
 |---|---|
@@ -63,4 +63,7 @@ PM / リーダー業務を Project as Code に接続するための文書。
 | [specs/project-as-code-for-pm-leader.md](./specs/project-as-code-for-pm-leader.md) | PM / リーダー業務への PaC 適用ガイド |
 | [external-links.md](./external-links.md) | `pm-leader-skill` など外部リポジトリとの役割分担 |
 | [../src/leader-skill/README.md](../src/leader-skill/README.md) | 子プロジェクト: リーダースキル資格戦略と学習教材（旧 `study-leader-skill` を吸収、ADR-001） |
+| [../src/pmbok/README.md](../src/pmbok/README.md) | 子プロジェクト: PMBOK を軸とした PM 知識体系の正本整理 |
+| [../src/project-as-code/README.md](../src/project-as-code/README.md) | 子プロジェクト: PaC 自体を持ち出し可能な成果物として育てる |
 | [adr/ADR-001-absorb-study-leader-skill.md](./adr/ADR-001-absorb-study-leader-skill.md) | `study-leader-skill` を `src/leader-skill/` へ吸収した決定 |
+| [adr/ADR-002-monorepo-growth-policy.md](./adr/ADR-002-monorepo-growth-policy.md) | リポジトリを分散させず親配下で育てる方針 |
