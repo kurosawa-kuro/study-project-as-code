@@ -74,6 +74,8 @@ human_decision_required:
 
 ## 参照フレームワーク
 
+**原則: 独自フレームワーク・独自用語を発明しない。デファクトを忠実に組み合わせる（ADR-003）。** 優先順位の正本は `docs/01_requirements.md#参照フレームワーク`（PMBOK > WBS > RACI/DACI > RAID > ステークホルダー分析 > MECE > … の15項目）。
+
 作業時に使う型。詳細は `docs/01_requirements.md#参照フレームワーク` を参照。
 
 | フレームワーク | いつ使うか |

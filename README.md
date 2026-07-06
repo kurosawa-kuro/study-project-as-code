@@ -11,6 +11,8 @@
 
 新米リーダー・PM・コンサル見習いとしての成長に関連するプロジェクトを、リポジトリを分散させずここで統合管理する。project-as-code を親とし、以下を `src/` 配下の子プロジェクトとして育てる（[ADR-002](docs/adr/ADR-002-monorepo-growth-policy.md)）。
 
+オリジナリティは意図して出さない。PMBOK・WBS・PDCA・MECE・ピラミッドストラクチャー等、デファクトのフレームワークを忠実に「組み合わせる」のが黒澤流（[ADR-003](docs/adr/ADR-003-defacto-framework-policy.md)。優先順位は [`docs/01_requirements.md#参照フレームワーク`](docs/01_requirements.md#参照フレームワーク)）。
+
 | 子プロジェクト | 役割 |
 |---|---|
 | [`src/leader-skill/`](src/leader-skill/README.md) | リーダースキル資格戦略と学習教材（CAPM / PSPO I） |

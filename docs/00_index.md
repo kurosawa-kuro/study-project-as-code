@@ -67,3 +67,4 @@ PM / リーダー業務を Project as Code に接続するための文書。owne
 | [../src/project-as-code/README.md](../src/project-as-code/README.md) | 子プロジェクト: PaC 自体を持ち出し可能な成果物として育てる |
 | [adr/ADR-001-absorb-study-leader-skill.md](./adr/ADR-001-absorb-study-leader-skill.md) | `study-leader-skill` を `src/leader-skill/` へ吸収した決定 |
 | [adr/ADR-002-monorepo-growth-policy.md](./adr/ADR-002-monorepo-growth-policy.md) | リポジトリを分散させず親配下で育てる方針 |
+| [adr/ADR-003-defacto-framework-policy.md](./adr/ADR-003-defacto-framework-policy.md) | オリジナリティを出さずデファクトのフレームワークを忠実に組み合わせる方針（黒澤流） |
