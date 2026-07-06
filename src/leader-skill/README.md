@@ -9,7 +9,7 @@
 
 - 主対象: リーダースキル資格の仕様整理と学習教材
 - 主眼: PM 専業化ではなく、技術主軸を保ったまま外部証明を補強すること
-- 現在の結論: `PMLE -> PSPO I 学習のみ -> CAPM 取得 -> Databricks 基礎資格`
+- 現在の結論: `PMLE -> PSPO I 受験見送り（必要語彙のみ学習） -> CAPM 挑戦予定 -> Databricks 基礎資格`
 
 ## 構成
 
@@ -24,8 +24,8 @@ src/leader-skill/
 │   ├── 05_CAPM資料改善計画.md
 │   └── README.md
 └── src/
-    ├── CAPM/        # CAPM 学習教材
-    └── PSPO-I/      # PSPO I 学習教材
+    ├── CAPM/        # CAPM 挑戦予定の学習教材
+    └── PSPO-I/      # PSPO I は受験見送り。必要語彙のみ回収
 ```
 
 ## ドキュメント

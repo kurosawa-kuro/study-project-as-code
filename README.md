@@ -15,7 +15,7 @@
 
 | 子プロジェクト | 役割 |
 |---|---|
-| [`src/leader-skill/`](src/leader-skill/README.md) | リーダースキル資格戦略と学習教材（CAPM / PSPO I） |
+| [`src/leader-skill/`](src/leader-skill/README.md) | リーダースキル資格戦略と学習教材（CAPMは挑戦予定 / PSPO Iは受験見送り） |
 | [`src/pmbok/`](src/pmbok/README.md) | PMBOK を軸とした PM 知識体系の正本整理 |
 | [`src/project-as-code/`](src/project-as-code/README.md) | PaC フレームワーク自体を持ち出し可能な成果物として育てる |
 

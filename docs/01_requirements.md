@@ -18,7 +18,7 @@ owner は新米リーダー・PM・コンサル見習いであり、その成長
 
 | 子プロジェクト | 役割 |
 |---|---|
-| `src/leader-skill/` | リーダースキル資格戦略と学習教材（CAPM / PSPO I） |
+| `src/leader-skill/` | リーダースキル資格戦略と学習教材（CAPMは挑戦予定 / PSPO Iは受験見送り） |
 | `src/pmbok/` | PMBOK を軸とした PM 知識体系の正本整理 |
 | `src/project-as-code/` | PaC フレームワーク自体を持ち出し可能な成果物として育てる |
 

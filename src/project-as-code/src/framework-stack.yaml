@@ -1,0 +1,60 @@
+# framework-stack.yaml — 採用フレームワーク一覧と重み（正本）
+#
+# 方針: docs/adr/ADR-003（デファクト忠実）/ ADR-004（AI委譲テーラリング）
+# 対象別の濃淡は tailoring-policy.md、衝突回避の運用は anti-cannibalism-rules.md を参照。
+# フレームワークの追加・重み変更は owner の判断基準に基づいて行い、AI が独自に発明しない。
+#
+# NOTE: 現在の stack は生メモ（docs/archive/kurosawa-style-framework-tailoring-brainstorm.md §5）
+# の対象 mlops_cloud_native_backend_pm に忠実。全体の優先順位15項目
+# （docs/01_requirements.md#参照フレームワーク）のうち未収載分
+# （ステークホルダー分析 / イシューツリー / KPI・KGI・OKR / DDD系 / CI・CD・GitOps）の
+# 重み付けは owner 判断待ち。
+
+target: mlops_cloud_native_backend_pm
+
+principle:
+  originality_at_framework_layer: false
+  use_de_facto_frameworks: true
+  avoid_framework_cannibalism: true
+  project_as_code_first: true
+  ai_assisted_tailoring: true
+
+frameworks:
+  pmbok:
+    role: project_management_language
+    weight: high
+  wbs:
+    role: work_decomposition
+    weight: high
+  raci:
+    role: responsibility_boundary
+    weight: high
+  raid:
+    role: risk_issue_assumption_dependency_management
+    weight: high
+  adr:
+    role: technical_decision_record
+    weight: high
+  c4:
+    role: architecture_explanation
+    weight: medium
+  sre:
+    role: reliability_operation
+    weight: high
+  mlops_lifecycle:
+    role: model_data_operation_lifecycle
+    weight: high
+  mece:
+    role: issue_structuring
+    weight: medium
+  pyramid_structure:
+    role: executive_communication
+    weight: medium
+
+# カニバリズム回避の現在のマッピング（正本）。解説は anti-cannibalism-rules.md。
+anti_cannibalism:
+  raci_vs_daci: choose_one_primary
+  okr_vs_kpi: separate_goal_and_metric
+  mece_vs_issue_tree: mece_as_principle_issue_tree_as_artifact
+  pmbok_vs_scrum: pmbok_as_management_language_scrum_as_delivery_method
+  adr_vs_decision_log: adr_for_architecture_decision_log_for_business_pm_decision

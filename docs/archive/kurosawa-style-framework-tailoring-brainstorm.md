@@ -2,7 +2,7 @@
 
 > **退避元:** `docs/tasks/idea/2026-07-07_kurosawa-style-project-as-code-framework-tailoring.md`（2026-07-07 退避）
 > **蒸留先:** §1 黒澤流の完全定義（カニバリズム回避・AI委譲の役割分担）→ `docs/adr/ADR-004-ai-assisted-framework-tailoring.md` と `docs/01_requirements.md#参照フレームワーク`
-> **未蒸留:** §3 対象別濃淡表・§5 最小構成（framework-stack.yaml 等）→ `docs/tasks/backlog/implement-framework-tailoring-skeleton.md` で判断待ち
+> **蒸留済み（2026-07-07 owner 承認で実装）:** §3 対象別濃淡表 → `src/project-as-code/src/tailoring-policy.md`、§5 最小構成 → `src/project-as-code/src/`（framework-stack.yaml / anti-cannibalism-rules.md / profiles/。templates/ と generated/ は見送り、経緯は `docs/tasks/done/implement-framework-tailoring-skeleton.md`）
 > **権威:** archive は権威順位の最下位。ここを正本として参照しない。
 
 ---
